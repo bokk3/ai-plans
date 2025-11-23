@@ -1,0 +1,38 @@
+Interactive Features"
+Goal: Add smart interactions and functionality
+Tasks:
+Task 1: Portfolio Search & Filters
+
+Enhance portfolio:
+- Search bar to filter by keywords
+- Multiple filter categories (material, project type, year)
+- Filter combinations work together
+- Smooth transition animations
+- Show count of filtered items
+
+Task2: Form Enhancement
+
+Upgrade contact form:
+- Add file upload for project reference images
+- Project budget range selector
+- Preferred contact method (email/phone)
+- Appointment date picker
+- Form progress indicator if multi-step
+
+Task 3: Live Chat/Contact Widget (Optional)
+
+Add floating contact button:
+- Fixed bottom-right corner
+- Opens chat/contact popup
+- Quick contact form
+- Click-to-call phone number
+- WhatsApp link
+- Animated entrance
+
+Task 4: Newsletter Signup
+
+Add to footer:
+- Email capture form
+- "Get project inspiration" messaging
+- Server action to save to database
+- Success animation

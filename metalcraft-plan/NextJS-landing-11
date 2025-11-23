@@ -1,0 +1,38 @@
+Video & Rich Media"
+Goal: Add dynamic media content
+Tasks:
+Task 1: Hero Video Background
+
+Add video to hero:
+- Subtle background video of metalworking/welding
+- Muted, looping, autoplay
+- Overlay gradient for text readability
+- Fallback to image on mobile
+- Use <video> tag with proper attributes
+
+Task 2: Process/Timeline Section
+
+Create components/sections/Process.tsx:
+- Step-by-step process visualization
+- Numbered steps with icons
+- Connect with lines/arrows
+- Animations as you scroll
+- Content: "Consultation → Design → Fabrication → Installation"
+
+Task 3: Portfolio Modal/Lightbox
+
+Create components/sections/Portfolio/PortfolioModal.tsx:
+- Click card to open full-screen modal
+- Image gallery slider
+- Full project details
+- Close button and keyboard navigation
+- Use shadcn Dialog component
+
+Task 4: About Section with Team
+
+Create components/sections/About.tsx:
+- Company story paragraph
+- Team member cards (if applicable)
+- Workshop photos
+- Split layout with text and images
+

@@ -1,0 +1,38 @@
+Real Images & Content"
+Goal: Replace placeholders with real/realistic content
+
+Tasks:
+Task 1: Image Optimization System
+
+Set up proper image handling:
+- Create public/images folder structure
+- Add high-quality placeholder images from Unsplash
+- Optimize sizes (hero: 1920x1080, portfolio: 800x600, thumbnails: 400x300)
+- Use next/image with proper sizes and quality settings
+
+Task 2: Portfolio Content Structure
+
+Enhance portfolio items:
+- Add detailed descriptions
+- Include project specs (materials, dimensions, year)
+- Before/after shots if applicable
+- Process photos
+- Update lib/portfolio-data.ts with rich content
+
+Task 3: Testimonials Section
+
+Create components/sections/Testimonials.tsx:
+- Carousel/slider of client testimonials
+- Photos (or initials in circles)
+- Star ratings
+- Client name and project type
+- Use shadcn Carousel component
+- Autoplay with manual controls
+
+Task 4: Stats/Numbers Section
+
+Create components/sections/Stats.tsx:
+- Reasonable numbers: "50+ Projects", "5+ Years", "98% Satisfaction"
+- Counter animation on scroll into view
+- Grid layout with icons
+- Bronze accent colors

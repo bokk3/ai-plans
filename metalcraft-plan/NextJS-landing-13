@@ -1,0 +1,35 @@
+Smart Navigation & UX"
+Goal: Improve navigation and user flow
+Tasks:
+Task 1: Smooth Scroll Navigation
+
+Enhance navbar:
+- Smooth scroll to sections with offset for fixed nav
+- Active section highlighting in nav
+- Use intersection observer
+- Mobile menu closes on selection
+
+Task 2: Back to Top Button
+
+Create components/ui/BackToTop.tsx:
+- Appears after scrolling down
+- Fixed bottom-right
+- Bronze circular button with up arrow
+- Smooth scroll to top
+- Fade in/out animation
+
+Task 3: Breadcrumb System (if multi-page)
+
+If adding more pages:
+- Breadcrumb navigation
+- Shows current location
+- Links back to home/portfolio
+
+Task 4: Loading States
+
+Add loading UI:
+- Skeleton screens for portfolio
+- Loading spinner for form submission
+- Image loading placeholders
+- Smooth content reveals
+

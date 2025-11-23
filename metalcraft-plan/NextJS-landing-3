@@ -1,0 +1,43 @@
+Step 6: Create Plan 3 - "Hero Section"
+Plan Name: "Hero Section - Main Landing"
+Plan Description:
+Create an impactful, full-screen hero section that immediately captures
+attention with bold typography, animations, and metallic aesthetic.
+
+Tasks:
+Task 1: Hero Component Structure
+Create components/sections/Hero.tsx:
+- Full viewport height (min-h-screen)
+- Dark background (#0a0a0a)
+- Centered content with max-width container
+- Flex layout for vertical/horizontal centering
+
+Task 2: Hero Content & Typography
+Add hero content:
+- Main headline: "Crafting Metal & Wood into Art" (text-6xl, bold, white)
+- Subheadline: "Custom metalwork and woodworking for residential and commercial projects" (text-xl, steel gray)
+- Two CTA buttons:
+  * Primary: "View Portfolio" (bronze background, hover effects)
+  * Secondary: "Get a Quote" (bronze outline, hover fill)
+- Use proper spacing and typography hierarchy
+
+Task 3: Hero Background Effect
+Add visual interest:
+- Subtle grid pattern overlay (CSS or SVG)
+- Or radial gradient from center
+- Metallic texture hints
+- Keep it subtle, not distracting
+
+Task 4: Hero Animations
+Add Framer Motion animations:
+- Fade in main headline (delay 0.2s)
+- Fade in subheadline (delay 0.4s)
+- Fade in buttons (delay 0.6s)
+- All with smooth easing
+- Respect prefers-reduced-motion
+
+Task 5: Update Homepage
+Update app/page.tsx:
+- Import Hero component
+- Add Hero as first section
+- Basic page structure with <main> tag

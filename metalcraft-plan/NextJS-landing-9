@@ -1,0 +1,36 @@
+Premium Typography & Spacing"
+Goal: Refine the visual hierarchy and readability
+
+Tasks:
+Task 1: Custom Font Integration
+
+Add premium fonts:
+- Heading font: "Bebas Neue" or "Oswald" (industrial, bold)
+- Body font: "Inter" or "DM Sans" (clean, readable)
+- Install via next/font/google
+- Update tailwind.config.ts
+- Apply throughout site
+
+Task 2: Typography System
+
+Create lib/typography.ts:
+- Consistent heading sizes (h1-h6)
+- Body text variants (large, base, small)
+- Use CSS variables or Tailwind classes
+- Document the system in comments
+
+Task 3: Spacing Refinement
+
+Audit and fix spacing:
+- Consistent section padding (py-24, py-32)
+- Proper content max-width (max-w-7xl)
+- Better component spacing
+- Visual rhythm between sections
+
+Task 4: Micro-copy Polish
+
+Review and improve all text:
+- Headlines more compelling
+- CTAs more action-oriented
+- Descriptions more engaging
+- Add subtle taglines/quotes

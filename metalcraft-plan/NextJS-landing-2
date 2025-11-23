@@ -1,0 +1,32 @@
+Create Plan 2 - "Core UI Components"
+Plan Name: "Core Reusable Components"
+Plan Description:
+Build the foundational UI components that will be used across the site:
+navigation, footer, and enhanced button/card variations.
+
+Tasks:
+Task 1: Create Navbar Component
+Create components/sections/Navbar.tsx:
+- Sticky header with blur backdrop on scroll
+- Logo on left (placeholder text: "METALCRAFT")
+- Nav links center: Home, Portfolio, Services, About, Contact
+- CTA button right: "Get Quote" (bronze style)
+- Mobile hamburger menu
+- Smooth scroll to sections
+- Use Framer Motion for entrance animation
+- Must be a client component for interactivity
+
+Task 2: Create Footer Component
+Create components/sections/Footer.tsx:
+- Dark background (darker than body)
+- Three columns: About, Quick Links, Contact
+- Social media icons (placeholder)
+- Copyright text
+- Industrial/minimal design
+- Can be server component
+
+Task 3: Update Layout with Nav and Footer
+Update app/layout.tsx:
+- Import and add Navbar component
+- Add Footer component
+- Proper semantic HTML structure

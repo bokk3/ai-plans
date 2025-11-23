@@ -1,0 +1,46 @@
+Step 2: Create Your First Plan - "Project Setup"
+Plan Name: "Project Setup & Configuration"
+Plan Description:
+
+Set up the foundation for the metal/woodworking landing page:
+- Configure Tailwind with custom colors
+- Set up layout with metadata
+- Create reusable utility functions
+- Establish dark mode defaults
+
+
+Task 1: Update Tailwind Configuration
+
+Update tailwind.config.ts to include our custom color palette:
+- bronze: '#cd7f32', '#b87333'
+- steel: '#71797E', '#52595D'  
+- darkBg: '#0a0a0a', '#1a1a1a'
+- accent: '#FFA500'
+
+Add custom font families and extend theme with these colors.
+Make sure to preserve existing Tailwind config.
+
+Task 2: Configure Global Styles
+
+Update app/globals.css:
+- Set dark background (#0a0a0a) as default
+- White text color
+- Smooth scrolling behavior
+- Custom scrollbar styling (dark theme)
+- Remove any default blue/purple colors from shadcn
+
+Task 3: Create Root Layout
+
+Update app/layout.tsx:
+- Add comprehensive metadata (title, description, og tags)
+- Set up Inter font (or suggest modern industrial font)
+- Include viewport settings for mobile
+- Dark theme by default
+- Basic structure with <html>, <body>
+
+
+Task 4: Create Utility Functions
+
+Create lib/utils.ts if it doesn't exist:
+- Export 'cn' function for className merging
+- Add any helper functions we'll need (formatDate, etc.)

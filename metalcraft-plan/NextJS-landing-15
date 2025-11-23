@@ -1,0 +1,36 @@
+SEO & Analytics"
+Goal: Get found and track visitors
+Tasks:
+Task 1: Advanced SEO
+
+Enhance SEO:
+- Structured data (JSON-LD) for business, reviews
+- XML sitemap generation
+- robots.txt configuration
+- Canonical URLs
+- Schema markup for portfolio items
+
+Task 2: Meta Tags & Social Sharing
+
+Perfect social sharing:
+- Custom Open Graph images for each section
+- Twitter Card optimization
+- Proper descriptions for each page/section
+- Preview how it looks on social platforms
+
+Task 3: Analytics Integration
+
+Add Google Analytics:
+- Set up GA4
+- Track key events (form submissions, portfolio clicks, CTA clicks)
+- Add to app/layout.tsx
+- Create lib/analytics.ts for event tracking
+
+Task 4: Schema & Local SEO (if applicable)
+
+Add LocalBusiness schema:
+- Business location
+- Hours of operation
+- Contact information
+- Service areas
+- Reviews aggregate

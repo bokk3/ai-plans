@@ -1,0 +1,34 @@
+Deployment & DevOps"
+Goal: Live and maintainable
+Tasks:
+Task 1: Environment Setup
+
+Configure environments:
+- .env.local for development
+- .env.production variables
+- Environment-specific configs
+- Secrets management
+
+Task 2: Build Configuration
+
+Optimize production build:
+- Update next.config.ts for production
+- Enable compression
+- Configure CDN if using
+- Set up proper redirects
+
+Task 3: Docker Setup
+
+Create Dockerfile:
+- Multi-stage build
+- Optimize image size
+- Production-ready container
+- docker-compose.yml for local testing
+
+Task 5: Monitoring
+
+Set up monitoring:
+- Error tracking (Sentry)
+- Uptime monitoring
+- Performance monitoring
+- Set up alerts

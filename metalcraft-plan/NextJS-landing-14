@@ -1,0 +1,37 @@
+Performance Optimization"
+Goal: Make it blazing fast
+Tasks:
+Task 1: Image Optimization Deep Dive
+
+Optimize all images:
+- Convert to WebP format
+- Use responsive images with srcset
+- Lazy load below-fold images
+- Blur placeholder data URLs
+- Priority loading for hero image
+
+Task 2: Code Splitting
+
+Optimize bundle:
+- Dynamic imports for heavy components
+- Split portfolio modal into separate chunk
+- Lazy load Framer Motion animations
+- Use next/dynamic for client components
+
+
+Task 3: Caching Strategy
+
+Implement proper caching:
+- Static generation for main page
+- Incremental static regeneration for portfolio
+- Cache portfolio data
+- Service worker for offline (optional)
+
+Task 4: Performance Audit
+
+Run and fix:
+- Lighthouse audit (target 95+ on all)
+- Core Web Vitals optimization
+- Reduce JavaScript bundle size
+- Minimize CSS
+- Check mobile performance

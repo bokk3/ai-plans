@@ -1,0 +1,51 @@
+ Create Plan 4 - "Portfolio Gallery"
+Plan Name: "Interactive Portfolio Gallery"
+Plan Description:
+Build a filterable, animated portfolio gallery showcasing metal and
+woodworking projects with categories and modal views.
+
+Tasks:
+Task 1: Portfolio Data Structure
+Create lib/portfolio-data.ts:
+- TypeScript interface for PortfolioItem (id, title, category, image, description)
+- Mock data array with 9-12 sample projects
+- Categories: 'all', 'metal', 'wood', 'combined'
+- Use placeholder images from unsplash (metalwork/woodworking)
+
+Task 2: Portfolio Filter Component
+Create components/sections/Portfolio/PortfolioFilter.tsx:
+- Client component with state for active filter
+- Filter buttons: All, Metal, Wood, Combined
+- Bronze styling for active state
+- Steel gray for inactive
+- Smooth transitions
+
+Task 3: Portfolio Grid Component
+Create components/sections/Portfolio/PortfolioGrid.tsx:
+- Responsive grid: 3 cols desktop, 2 tablet, 1 mobile
+- Gap of 6 (gap-6)
+- Map through filtered items
+- Framer Motion layout animations when filtering
+
+Task 4: Portfolio Card Component
+Create components/sections/Portfolio/PortfolioCard.tsx:
+- Image with next/image (fill, object-cover)
+- Overlay with title and category badge on hover
+- Scale effect on hover (hover:scale-105)
+- Category badge with bronze accent
+- Click opens modal (or link to detail page)
+
+Task 5: Main Portfolio Section
+Create components/sections/Portfolio.tsx:
+- Section wrapper with padding
+- Heading: "Our Work"
+- Subheading
+- Include PortfolioFilter
+- Include PortfolioGrid
+- Combine all pieces
+
+Task 6: Add to Homepage
+Update app/page.tsx:
+- Import Portfolio section
+- Add after Hero
+- Proper section spacing

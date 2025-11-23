@@ -1,0 +1,43 @@
+"Advanced Animations & Interactions"
+Goal: Make the site feel alive and premium
+
+Tasks:
+Task 1: Parallax Effects
+
+Add parallax scrolling:
+- Hero background elements move slower than foreground
+- Section backgrounds with subtle parallax
+- Use Framer Motion's useScroll and useTransform hooks
+- Create components/effects/ParallaxSection.tsx wrapper
+
+Task 2: Magnetic Hover Effects
+
+Add magnetic buttons/cards:
+- Buttons that slightly follow cursor on hover
+- Portfolio cards with tilt effect on mouse move
+- Use Framer Motion's useMotionValue
+- Subtle, not gimmicky (5-10px movement max)
+
+Task 3: Scroll Progress Indicator
+
+Create components/ui/ScrollProgress.tsx:
+- Thin bronze line at top showing scroll progress
+- Smooth animation
+- Fixed position
+- Use Framer Motion useScroll
+
+
+Task 4: Page Transitions
+
+Add smooth page load transitions:
+- Fade in content on initial load
+- Staggered section reveals
+- Loading skeleton for images
+- Create components/transitions/PageTransition.tsx
+
+Task 5: Cursor Trail Effect (Optional but cool)
+Create custom cursor for desktop:
+- Larger cursor with bronze glow
+- Follows mouse with slight delay
+- Different states for links/buttons
+- Only on desktop (hide on mobile)

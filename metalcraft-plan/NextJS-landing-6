@@ -1,0 +1,44 @@
+Create Plan 6 - "Contact Form"
+Plan Name: "Contact Form with Validation"
+Plan Description:
+Build a functional contact form with client-side validation and
+server action for form submission.
+
+
+Tasks:
+Task 1: Contact Form Component
+Create components/sections/Contact/ContactForm.tsx:
+- Client component with form state
+- Fields: name, email, phone, project type (dropdown), message
+- Use shadcn Input, Textarea components
+- Bronze submit button
+- Loading state during submission
+- Success/error messages
+
+Task 2: Form Validation
+Add validation to ContactForm:
+- Required fields validation
+- Email format validation
+- Min length for message
+- Display error messages below fields
+- Disable submit until valid
+
+Task 3: Server Action
+Create app/actions/contact.ts:
+- Server action to handle form submission
+- Validate data server-side
+- For now, console.log the data (later connect to email service)
+- Return success/error response
+
+Task 4: Contact Section
+Create components/sections/Contact.tsx:
+- Section heading: "Get in Touch"
+- Subheading
+- ContactForm component
+- Optional: contact info sidebar (phone, email, address)
+- Two column layout on desktop
+
+Task 5: Add to Homepage
+
+Update app/page.tsx:
+- Add Contact section at bottom (before footer)
