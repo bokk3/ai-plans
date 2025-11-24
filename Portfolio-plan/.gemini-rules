@@ -1,0 +1,41 @@
+# Development Rules
+
+## General
+- Use **Next.js 16** and **React 19**.
+- Use **TypeScript** for all code.
+- Use **Tailwind CSS v4** for styling.
+- Use **SQLite** for the database.
+- Ensure all animations run at **60fps**.
+
+## Audio Handling
+- Use **WaveSurfer.js** (or Peaks.js) for waveform visualization.
+- Generate waveforms upon track upload if possible, or on the fly.
+- Store audio files in `/public/uploads/audio/`.
+- Ensure the audio player is persistent across page navigations (use a global context or layout).
+
+## Admin & Authentication
+- Use a single **Admin Password** (from `.env`) for simplicity.
+- Implement session-based authentication (JWT or simple token).
+- Protect all `/admin` routes.
+- Auto-logout after inactivity.
+
+## File Uploads
+- Use **React Dropzone** for drag-and-drop uploads.
+- Validate file types and sizes on the client and server.
+- Store files locally in `/public/uploads/` organized by type (`audio`, `images`, `videos`).
+
+## Database
+- Use `better-sqlite3` for synchronous SQLite operations (or `sqlite` / `libsql` if preferred for Next.js).
+- Define schema in `schema.sql`.
+- Use Server Actions for all database mutations.
+
+## WYSIWYG Editor
+- Use **TipTap** or **Lexical** for the blog editor.
+- Support image uploads within the editor.
+- Sanitize HTML output before rendering.
+
+## Code Quality
+- Follow strict TypeScript rules.
+- Use `zod` for all form and API validation.
+- Keep components small and focused.
+- Use `lucide-react` for icons.
